@@ -1,0 +1,2 @@
+dec588305c72aaf168f25a30b84332a47208d2601b5cf922c52472e85d603e70  hello-alpine_0.0.0-SNAPSHOT-none_linux_amd64.tar.gz
+d89f11cefd2688e26ec5da666399186a2ec1e4b4c86085e8f0012c2a672433a2  hello-alpine_0.0.0-SNAPSHOT-none_linux_arm64.tar.gz

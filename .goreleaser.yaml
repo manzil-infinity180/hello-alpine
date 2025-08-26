@@ -1,0 +1,21 @@
+project_name: hello-alpine
+
+builds:
+  - env:
+      - CGO_ENABLED=0
+    goos:
+      - linux
+    goarch:
+      - amd64
+      - arm64
+    main: ./main.go
+    binary: hello-alpine
+
+archives:
+  - format: tar.gz
+    name_template: "{{ .ProjectName }}_{{ .Version }}_linux_{{ .Arch }}"
+
+release:
+  github:
+    owner: manzil-infinity180
+    name: hello-alpine
